@@ -15,4 +15,6 @@ export const navLinksUp: NavLink[] = [
 export const navLinksDown: NavLink[] = [
     { name: "Invite", path: "/invite", icon: "/mailicon.svg" },
     { name: "Settings", path: "/settings", icon: "/settingsicon.svg" },
+    { name: "Marcielle Enrique", path: "/profile", icon: "/Avatar.png" },
   ];
+
