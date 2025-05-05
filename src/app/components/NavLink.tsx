@@ -6,7 +6,7 @@ import React from 'react';
 export interface NavLinkPropTypes {
     name: string;
     path: string;
-    icon?: string;
+    icon: string;
   }
 
 const NavLink = ({ name, path, icon }: NavLinkPropTypes) => {
