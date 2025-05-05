@@ -10,7 +10,7 @@ const Sidebar = () => {
             <Image src="/logo.svg" width={100} height={100} alt="Logo" className="w-[72px] h-[32px] mb-4"/>
         </div>
         <div className="px-3 flex flex-col gap-3 flex-1 mb-3">
-            <UploadButton />
+            <UploadButton gaps="gap-2" padY="py-2" padX="px-3"/>
             <SidebarNav />
         </div>
     </div>

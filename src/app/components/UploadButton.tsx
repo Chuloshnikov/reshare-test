@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-const UploadButton = () => {
+const UploadButton = ({padY, padX, gaps}: {padY: string, padX: string, gaps: string}) => {
   return (
-    <button className="bg-[#333333] flex gap-2 items-center justify-center py-2 px-3 max-w-max rounded-lg cursor-pointer">
-        <Image src="/plus.svg" width={50} height={50} alt="Logo" className="w-[10px] h-[10px]"/>
+    <button className={`bg-[#333333] flex ${gaps} items-center justify-center ${padY} ${padX} max-w-max rounded-lg cursor-pointer`}>
+        <Image src="/plus.svg" width={20} height={20} alt="Logo" className="w-[20px] h-[20px]"/>
         <span className="font-medium text-sm leading-5 tracking-normal text-white">Upload</span>
     </button>
   )
