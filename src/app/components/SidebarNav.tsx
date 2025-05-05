@@ -1,4 +1,4 @@
-import { navLinksUp, navLinksDown } from "../lib/navLinks";
+import { navLinksUp, navLinksDown } from "../lib/constants";
 import NavLink from "./NavLink";
 
 

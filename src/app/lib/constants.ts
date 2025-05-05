@@ -18,3 +18,7 @@ export const navLinksDown: NavLink[] = [
     { name: "Marcielle Enrique", path: "/profile", icon: "/Avatar.png" },
   ];
 
+  export const systemIcons = {
+    boldsearch: "./boldsearch.svg",
+    folderplas: "./folderplus.svg"
+  } 
