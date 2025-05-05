@@ -1,13 +1,29 @@
-import Link from 'next/link';
-import React from 'react'
+import { navLinksUp, navLinksDown } from "../lib/navLinks";
+import NavLink from "./NavLink";
+
 
 const SidebarNav = () => {
   return (
-    <nav>
+    <nav className="flex flex-col justify-between h-full">
+        <ul className='text-[#333333]'>
+        {navLinksUp.map(({ name, path, icon }) => (
+        <NavLink
+          key={path}
+          path={path}
+          name={name}
+          icon={icon}
+        />
+      ))}
+        </ul>
         <ul>
-            <li>
-                <Link href="/"/>
-            </li>
+        {navLinksDown.map(({ name, path, icon }) => (
+        <NavLink
+          key={path}
+          path={path}
+          name={name}
+          icon={icon}
+        />
+        ))}
         </ul>
     </nav>
   )
