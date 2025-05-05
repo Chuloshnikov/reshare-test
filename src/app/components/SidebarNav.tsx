@@ -15,7 +15,7 @@ const SidebarNav = () => {
         />
       ))}
         </ul>
-        <ul>
+        <ul className='text-[#333333]'>
         {navLinksDown.map(({ name, path, icon }) => (
         <NavLink
           key={path}
