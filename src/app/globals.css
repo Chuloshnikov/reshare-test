@@ -4,3 +4,26 @@ body {
   background-color: #ffffff;
 }
 
+
+input {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+input:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+input:hover {
+  border: none !important;
+}
+
+
+input[type="search"] {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
